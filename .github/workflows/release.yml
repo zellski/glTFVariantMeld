@@ -6,8 +6,8 @@ on:
 
 jobs:
   build:
-    name: "Build '${{ matrix.rust }}' on ${{ matrix.os.github-name }}"
-    runs-on: ${{ matrix.os.github-name }}
+    name: "Build '${{ matrix.rust }}' on ${{ matrix.os.human-os-name }}"
+    runs-on: ${{ matrix.os.github-os-name }}
     strategy:
       matrix:
         os:
