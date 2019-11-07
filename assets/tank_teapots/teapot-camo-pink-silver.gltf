@@ -12897,6 +12897,9 @@
     {
       "alphaMode": "OPAQUE",
       "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
         "baseColorFactor": [0.8, 0.1, 0.5, 1],
         "metallicFactor": 0.0,
         "roughnessFactor": 0.2
@@ -12914,11 +12917,17 @@
   "textures": [
     {
       "source": 0
+    },
+    {
+      "source": 1
     }
   ],
   "images": [
     {
       "uri": "camouflage-pattern.jpg"
+    },
+    {
+      "uri": "brown-drum-leather.jpg"
     }
   ],
   "meshes": [
